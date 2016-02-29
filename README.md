@@ -1,4 +1,7 @@
 # Don't Crash
+> cocos2d-python demo
+
+![demo](http://i12.tietuku.com/7f5780e05701bd70.gif)
 
 ## Environment
 - Python 2.6, 2.7 or 3.3+
