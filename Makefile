@@ -1,5 +1,5 @@
 all:
-	@python Main.py
+	@python src/Main.py
 
 clean:
-	@rm -f *.pyc
+	@rm -f src/*.pyc

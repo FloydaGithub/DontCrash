@@ -3,7 +3,7 @@ from __future__ import division, print_function, unicode_literals
 # This code is so you can run the samples without installing the package
 import sys
 import os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../..'))
 #
 
 import pyglet
@@ -72,6 +72,8 @@ class MainMenu(Menu):
 
 
 if __name__ == "__main__":
+    pyglet.resource.path.append('res')
+    pyglet.resource.reindex()
     director.init(width=Display.width, height=Display.height)
     director.set_show_FPS(Config.debug)
     director.run(Scene(MainMenu()))
