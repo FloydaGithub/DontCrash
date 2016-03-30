@@ -7,6 +7,7 @@ python:
 
 install:
   - pip install cocos2d
+  - pip install pyglet
 
 script:
   - cd src && python Main.py
