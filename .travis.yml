@@ -10,4 +10,4 @@ install:
   - pip install pyglet
 
 script:
-  - cd src && python Main.py
+  - cd src && py.test Main.py

@@ -70,10 +70,15 @@ class MainMenu(Menu):
     def on_quit(self):
         pyglet.app.exit()
 
-
-if __name__ == "__main__":
+def main():
     pyglet.resource.path.append('res')
     pyglet.resource.reindex()
     director.init(width=Display.width, height=Display.height)
     director.set_show_FPS(Config.debug)
     director.run(Scene(MainMenu()))
+
+def test_main():
+    main()
+
+if __name__ == '__main__':
+    main()
