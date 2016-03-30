@@ -4,10 +4,13 @@ language: python
 python:
   - "2.6"
   - "2.7"
+  - "3.3"
+
+env:
+    - cocos_utest=1
 
 install:
   - pip install cocos2d
-  - pip install pyglet
 
 script:
-  - cd src && py.test Main.py
+  - cd utest && py.test --tb native
