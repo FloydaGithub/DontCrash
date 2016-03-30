@@ -77,8 +77,5 @@ def main():
     director.set_show_FPS(Config.debug)
     director.run(Scene(MainMenu()))
 
-def test_main():
-    main()
-
 if __name__ == '__main__':
     main()
