@@ -1,6 +1,8 @@
 # Don't Crash
 > cocos2d-python demo
 
+[![Build Status][travis-image]][travis-link]
+
 ![demo](preview.gif)
 
 ## Environment
@@ -21,3 +23,5 @@ cd DontCrash
 make
 ```
 
+[travis-image]: https://img.shields.io/travis/FloydaGithub/DontCrash/master.png
+[travis-link]: https://travis-ci.org/FloydaGithub/DontCrash
